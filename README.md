@@ -1,10 +1,10 @@
-🚗 Vision-Based ADAS Projects Repository
+Vision-Based ADAS Projects Repository
 
 This repository contains the final project submissions developed by mentees as part of the Vision-Based ADAS (Advanced Driver Assistance Systems) learning track.
 
 Each project implements a camera-based ADAS perception pipeline operating on real driving video data, focusing on lane detection, vehicle detection, spatial reasoning, and safety logic, similar to early-stage ADAS prototypes used in industry.
 
-📌 Project Overview
+Project Overview
 
 The goal of the final project was to design and implement a vision-only ADAS system that processes continuous front-facing driving video and produces a unified, annotated output demonstrating:
 
@@ -20,7 +20,7 @@ Integrated real-time visualization
 
 The emphasis of the project was system design and integration, not model training.
 
-🧠 Technical Scope & Constraints
+Technical Scope & Constraints
 
 Object Detection:
 All projects use a pretrained YOLO model for vehicle detection.
@@ -35,7 +35,7 @@ Publicly available front-facing driving videos (e.g., dashcam-style datasets) we
 Evaluation:
 All systems were tested on the same fixed video(s) to ensure consistent comparison across submissions.
 
-🧩 Expected System Capabilities
+Expected System Capabilities
 
 Each project in this repository implements the following components:
 
@@ -53,7 +53,7 @@ Lane departure warning based on lane center deviation
 
 A single unified output video combining all visualizations
 
-📁 Repository Structure
+Repository Structure
 
 Each mentee has committed their work in a separate folder, following a consistent structure:
 
@@ -68,7 +68,7 @@ Each mentee has committed their work in a separate folder, following a consisten
 
 Note: Folder names and exact structure may vary slightly based on individual implementation choices.
 
-▶️ How to Run a Project
+How to Run a Project
 
 Each mentee has included a project-level README inside their folder with:
 
@@ -80,7 +80,7 @@ Command to run the pipeline
 
 Please refer to the respective folder for execution details.
 
-🎯 Learning Outcomes
+Learning Outcomes
 
 Through this project, mentees demonstrated their understanding of:
 
@@ -96,12 +96,12 @@ Temporal logic and decision-making
 
 System-level thinking for ADAS applications
 
-📎 Disclaimer
+Disclaimer
 
 These projects are educational prototypes intended for learning purposes only.
 They do not represent production-ready ADAS systems and should not be used in real driving scenarios.
 
-🙌 Acknowledgements
+Acknowledgements
 
 This repository represents the culmination of a structured learning journey in computer vision for autonomous and driver assistance systems.
 Great effort by all contributors in bringing together perception, logic, and visualization into complete working systems.
